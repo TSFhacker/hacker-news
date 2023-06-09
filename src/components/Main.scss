@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
+}
+
+.story-containers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+  padding: 2rem 3.5rem;
+}
+
+.loader {
+  position: fixed;
+  height: 20rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
